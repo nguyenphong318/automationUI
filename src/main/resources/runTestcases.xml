@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Dash Board">
+<!--    <parameter name = "url" value = "http://192.168.75.16:8889/login"/>-->
 
 <!--    <test name = "Run on Firefox browser">-->
 <!--        <parameter name = "browser" value = "firefox"/>-->

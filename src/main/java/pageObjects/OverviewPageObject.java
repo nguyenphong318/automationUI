@@ -2,11 +2,13 @@ package pageObjects;
 
 import commons.BasePage;
 import org.openqa.selenium.WebDriver;
+import pageObjects.navigation.HeaderNavigationPageObject;
 import pageUIs.OverviewPageUI;
 
-public class OverviewPageObject extends BasePage {
+public class OverviewPageObject extends HeaderNavigationPageObject {
     WebDriver driver;
     public OverviewPageObject(WebDriver driver) {
+        super(driver);
         this.driver = driver;
     }
 

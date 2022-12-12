@@ -1,4 +1,4 @@
-package pageUIs;
+package pageUIs.navigation;
 
 public class HeaderPageUI {
     public static final String GLOBAL_LINK = "//a[text()='GLOBAL']";
@@ -8,4 +8,6 @@ public class HeaderPageUI {
     public static final String TIMESHEET_LINK = "//a[text()='TIMESHEET']";
     public static final String SETTING_LINK = "//a[text()='SETTING']";
     public static final String RATING_LINK = "//a[text()='RATING']";
+
+    public static final String DYNAMIC_HEADER_LINK = "//a[text()='%s']";
 }

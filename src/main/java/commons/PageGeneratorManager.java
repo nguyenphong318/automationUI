@@ -1,6 +1,7 @@
-package pageObjects;
+package commons;
 
 import org.openqa.selenium.WebDriver;
+import pageObjects.*;
 
 public class PageGeneratorManager {
 
@@ -33,5 +34,9 @@ public class PageGeneratorManager {
 
     public static TimeSheetPageObject getTimeSheetPage(WebDriver driver) {
         return new TimeSheetPageObject(driver);
+    }
+
+    public static RatingPageObject getRatingPage(WebDriver driver) {
+        return new RatingPageObject(driver);
     }
 }

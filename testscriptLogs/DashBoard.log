@@ -1,0 +1,17 @@
+[INFO ] [2022-12-12 17:37:30,030] Login 01: Step 01: Click To Login Button
+[INFO ] [2022-12-12 17:37:30,766] Login 01: Step 02: Verify error mesage is displayed
+[INFO ] [2022-12-12 17:37:30,847] Login 02: Step 01: Refresh Current Page
+[INFO ] [2022-12-12 17:37:30,864] Login 02: Step 02: Input To Username Textbox
+[INFO ] [2022-12-12 17:37:32,552] Login 02: Step 03: Input To Password Textbox
+[INFO ] [2022-12-12 17:37:32,671] Login 02: Step 04: Click To Login Button
+[INFO ] [2022-12-12 17:37:33,401] Login 02: Step 05: Verify Error Message Is Displayed
+[INFO ] [2022-12-12 17:37:33,407] Login 03: Step 01: Refresh Current Page
+[INFO ] [2022-12-12 17:37:33,416] Login 03: Step 02: Input To Username Textbox
+[INFO ] [2022-12-12 17:37:34,300] Login 03: Step 03: Input To Password Textbox
+[INFO ] [2022-12-12 17:37:34,416] Login 03: Step 04: Click To Login Button
+[INFO ] [2022-12-12 17:37:34,512] Login 04: Step 05: Verify Error Message Is Displayed
+[INFO ] [2022-12-12 17:37:35,136] Login 04: Step 01: Refresh Current Page
+[INFO ] [2022-12-12 17:37:35,689] Login 04: Step 02: Input To Username Textbox
+[INFO ] [2022-12-12 17:37:35,832] Login 04: Step 03: Input To Password Textbox
+[INFO ] [2022-12-12 17:37:35,950] Login 04: Step 04: Click To Login Button
+[INFO ] [2022-12-12 17:37:36,028] Login 04: Step 05: Verify Log In Success
