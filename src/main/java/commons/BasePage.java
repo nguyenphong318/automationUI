@@ -5,9 +5,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageObjects.PageGeneratorManager;
-import pageObjects.SettingPageObject;
-import pageUIs.BasePageUI;
 
 import java.util.List;
 import java.util.Set;
@@ -290,11 +287,6 @@ public class BasePage {
         new WebDriverWait(driver, longTimeout).until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
     }
 
-    public SettingPageObject openSettingPage(WebDriver driver) {
-        waitForElementClickable(driver, BasePageUI.SETTING_LINK);
-        clickToElement(driver, BasePageUI.SETTING_LINK);
-        return PageGeneratorManager.getSettingPage(driver);
-    }
     private final long longTimeout = 30;
     private final long shortTimeout = 5;
     public void sleepInSecond(long timeInSecond) {

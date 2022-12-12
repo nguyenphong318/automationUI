@@ -1,6 +1,6 @@
 package pageUIs;
 
-public class BasePageUI {
+public class HeaderPageUI {
     public static final String GLOBAL_LINK = "//a[text()='GLOBAL']";
     public static final String SALES_LINK = "//a[text()='SALES']";
     public static final String DELIVERY_LINK = "//a[text()='DELIVERY']";
